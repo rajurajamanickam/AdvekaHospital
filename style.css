@@ -110,7 +110,7 @@ nav.main a.active::after{
     position:fixed; inset:60px 0 auto 0; background:var(--paper);
     flex-direction:column; align-items:flex-start; gap:0;
     padding:10px 28px 20px; border-bottom:1px solid var(--line);
-    transform:translateY(-130%); transition:transform .3s ease; box-shadow:var(--shadow);
+    transform:translateY(-155%); transition:transform .3s ease; box-shadow:var(--shadow);
   }
   nav.main.open{ transform:translateY(0); }
   nav.main a{ padding:12px 0; width:100%; border-bottom:1px solid var(--line); }
